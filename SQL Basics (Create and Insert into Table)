@@ -1,0 +1,53 @@
+Here I created 2 tables EmployeeInfo and EmployeeSalary with various fields as you can see by using "CREATE TABLE"
+
+--querry for creating Table 1
+
+CREATE TABLE EmployeeInfo 
+(EmployeeID int, 
+FirstName varchar(50), 
+LastName varchar(50), 
+Age int, 
+Gender varchar(50)
+)
+
+-- querry for creating Table 2
+CREATE TABLE EmployeeSalary 
+(EmployeeID int, 
+JobTitle varchar(50), 
+Salary int
+)
+
+Now let's enter the data into both the Tables by using "INSERT INTO" querry
+
+-- table 1
+
+INSERT INTO EmployeeInfo VALUES
+(1001, 'Yuzi', 'Chahal', 30, 'Male'),
+(1002, 'Dhanashree', 'Verma', 30, 'Female'),
+(1003, 'Rahul', 'KL', 29, 'Male'),
+(1004, 'Anushka', 'Sharma', 31, 'Female'),
+(1005, 'Virat', 'Kohli', 32, 'Male'),
+(1006, 'MS', 'Dhoni', 35, 'Male'),
+(1007, 'Sakshi', 'Dhoni', 32, 'Female'),
+(1008, 'Sachin', 'Tendulkar', 38, 'Male'),
+(1009, 'Kevin', 'Pete', 31, 'Male')
+
+-- table 2
+
+INSERT INTO EmployeeSalary VALUES
+(1001, 'Salesman', 45000),
+(1002, 'Receptionist', 36000),
+(1003, 'Salesman', 63000),
+(1004, 'Accountant', 47000),
+(1005, 'HR', 50000),
+(1006, 'Regional Manager', 65000),
+(1007, 'Supplier Relations', 41000),
+(1008, 'Salesman', 48000),
+(1009, 'Accountant', 42000)
+
+
+
+As you can see I created 9 ROWS and 5 clumns in table 1
+and 9 ROWS and 3 COLUMNS in table 2
+
+
